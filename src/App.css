@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Jost", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+  border-radius: 10px;
+  width: 30%;
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  margin: 15px;
+  padding: 15px;
+}
+.inputData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.inputData input {
+  width: 100%;
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 20px;
+  font-weight: 650;
+}
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.location {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.location i {
+  padding-right: 25px;
+  font-size: 40px;
+}
+.tempMinMax {
+  text-align: center;
+}
+@media screen and (max-width: 850px) {
+  #root {
+    width: 50%;
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .inputData input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #root {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #root {
+    width: 300px;
   }
 }
