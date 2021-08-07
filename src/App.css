@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+  border-radius: 10px;
+  width: 30%;
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.box {
+  margin: 15px;
+  padding: 15px;
+}
+.inputData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.inputData input {
+  width: 100%;
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 20px;
+  font-weight: 650;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.location {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.location i {
+  padding-right: 25px;
+  font-size: 40px;
+}
+.tempMinMax {
+  text-align: center;
+}
+@media screen and (max-width: 850px) {
+  #root {
+    width: 50%;
+    margin: auto;
+  }
+  .inputData input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #root {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #root {
+    width: 300px;
+  }
+}
