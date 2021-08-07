@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# A simple Weather-App using [React.js](https://reactjs.org)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **This tiny application is like to check the temperature of a city.**
+> **This is a very basic app but useful to understand the React Components, states, Effects, Fetching API etc. .**
+
+## Demo
+
 
 ## Available Scripts
 
