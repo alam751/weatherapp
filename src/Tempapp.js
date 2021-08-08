@@ -41,7 +41,10 @@ const Tempapp = () => {
                   setCityName(event.target.value);
                 }}
                 onKeyUp={(event) => {
-                  if (event.key === "Enter") {
+                  if (
+                    event.key === "Enter" &&
+                    event.target.value.trim() === 0
+                  ) {
                     setSearch(event.target.value);
                   }
                 }}
