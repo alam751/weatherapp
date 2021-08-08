@@ -47,6 +47,7 @@ body {
   font-weight: 650;
 }
 .btn {
+  padding: 2px;
   width: 65px;
   height: 40px;
   border: none;
@@ -57,7 +58,8 @@ body {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   transition: all 0.4s linear;
-  outline: none;
+  border: none;
+  outline: 0;
 }
 .btn:hover {
   cursor: pointer;

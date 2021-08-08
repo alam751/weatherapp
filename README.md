@@ -1,11 +1,10 @@
 # A simple Weather-App using [React.js](https://reactjs.org)
 
-> **This tiny application is like to check the temperature of a city.**
-> **This is a very basic app but useful to understand the React Components, states, Effects, Fetching API etc. .**
+> **This tiny application is like to check the temperature of a city.** > **This is a very basic app but useful to understand the React Components, states, Effects, Fetching API etc. .**
 
 ## Demo
 
-![weather-app-_online-video-cutter com_-_3_](https://user-images.githubusercontent.com/84847269/128592025-238e0592-a5d9-4872-aca1-0c4c93045da0.gif)
+![weather app (online-video-cutter com) (3) (1)](https://user-images.githubusercontent.com/84847269/128626153-2a4ff2d0-0019-499e-8109-6621068c8b32.gif)
 
 ## Live URL :-
 
