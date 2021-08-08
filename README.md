@@ -9,7 +9,7 @@
 
 ## Live URL :-
 
-> [weather-app](https://weatherapp-gray.vercel.app/)
+> [weather-app](https://weatherapp-demo.vercel.app/)
 
 **OR your can do the following to run in your local machine**
 

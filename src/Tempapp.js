@@ -18,6 +18,7 @@ const Tempapp = () => {
   }, [search]);
   const handleSubmit = (e) => {
     e.preventDefault();
+
     setSearch(cityName);
   };
 
@@ -30,22 +31,25 @@ const Tempapp = () => {
             <p>Check the weather forecast</p>
           </div>
           <div className="inputData">
-            <input
-              type="text"
-              value={cityName}
-              placeholder="Enter the city name ..."
-              onChange={(event) => {
-                setCityName(event.target.value);
-              }}
-              onKeyUp={(event) => {
-                if (event.key === "Enter") {
-                  setSearch(event.target.value);
-                }
-              }}
-            />
-            <button type="submit" className="btn" onClick={handleSubmit}>
-              search
-            </button>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                value={cityName}
+                placeholder="Enter the city name ..."
+                required
+                onChange={(event) => {
+                  setCityName(event.target.value);
+                }}
+                onKeyUp={(event) => {
+                  if (event.key === "Enter") {
+                    setSearch(event.target.value);
+                  }
+                }}
+              />
+              <button type="submit" className="btn">
+                search
+              </button>
+            </form>
           </div>
         </div>
         <div className="information">

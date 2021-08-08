@@ -12,7 +12,7 @@ body {
   align-items: center;
 
   border-radius: 10px;
-  width: 30%;
+  width: auto;
   height: 400px;
   margin: auto;
   margin-top: 25px;
@@ -30,14 +30,13 @@ body {
 }
 .inputData {
   display: flex;
-
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-top: 15px;
 }
 .inputData input {
-  width: 100%;
+  width: 250px;
   height: 20px;
   padding: 10px;
   border: none;
@@ -48,7 +47,7 @@ body {
   font-weight: 650;
 }
 .btn {
-  width: 80px;
+  width: 65px;
   height: 40px;
   border: none;
   font-size: 15px;
@@ -91,22 +90,36 @@ body {
   font-weight: 600;
   text-align: center;
 }
-@media screen and (max-width: 850px) {
-  #root {
-    width: 50%;
-    margin: auto;
+
+@media screen and (max-width: 400px) {
+  .box {
+    margin: 5px;
+    padding: 2px;
   }
+}
+@media screen and (max-width: 352px) {
   .inputData input {
     width: 200px;
   }
 }
-@media screen and (max-width: 550px) {
-  #root {
-    width: 60%;
+@media screen and (max-width: 302px) {
+  .heading {
+    font-size: 18px;
   }
-}
-@media screen and (max-width: 360px) {
-  #root {
-    width: 300px;
+  .inputData form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputData input {
+    border-radius: 25px;
+    font-size: 15px;
+    height: 15px;
+  }
+  .btn {
+    margin-top: 10px;
+    border-radius: 25px;
+    height: 30px;
   }
 }
